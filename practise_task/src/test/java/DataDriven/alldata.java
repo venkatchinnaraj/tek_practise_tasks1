@@ -19,7 +19,7 @@ import org.testng.annotations.Test;
 public class alldata {
 	@Test
 	public void data() throws EncryptedDocumentException, IOException {
-
+//sys("*********************************");
 		//to read data in propertie file
 		FileInputStream fis = new FileInputStream("./src/test/resources/testdata/commondata.properties");
 		Properties prop = new Properties();
@@ -62,6 +62,7 @@ public class alldata {
 					System.out.println(data1+"\t"+data2);
 				}
            wb.close();
+          
 	}
 
 }
