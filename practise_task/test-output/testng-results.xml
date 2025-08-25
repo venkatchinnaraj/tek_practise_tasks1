@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Header name is  match]]>
+    </line>
+    <line>
+      <![CDATA[orgname is match]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-08-25T15:01:23 IST" name="Default suite" finished-at="2025-08-25T15:02:45 IST" duration-ms="81499">
+    <groups>
+      <group name="Smoke">
+        <method signature="base1test.openorg()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" name="openorg" class="TestNG_practise.base1test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2025-08-25T15:01:23 IST" name="Default test" finished-at="2025-08-25T15:02:45 IST" duration-ms="81499">
+      <class name="TestNG_practise.base1test">
+        <test-method is-config="true" signature="DBconn()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:01:22 IST" name="DBconn" finished-at="2025-08-25T15:01:23 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DBconn -->
+        <test-method is-config="true" signature="object()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:01:23 IST" name="object" finished-at="2025-08-25T15:01:23 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- object -->
+        <test-method is-config="true" signature="openbrowser()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:01:23 IST" name="openbrowser" finished-at="2025-08-25T15:01:38 IST" duration-ms="14811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openbrowser -->
+        <test-method is-config="true" signature="login()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:01:38 IST" name="login" finished-at="2025-08-25T15:01:54 IST" duration-ms="16169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="openorg()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:01:54 IST" name="openorg" finished-at="2025-08-25T15:02:44 IST" duration-ms="50195" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Header name is  match]]>
+            </line>
+            <line>
+              <![CDATA[orgname is match]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openorg -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:02:44 IST" name="logout" finished-at="2025-08-25T15:02:44 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:02:45 IST" name="closebrowser" finished-at="2025-08-25T15:02:45 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+        <test-method is-config="true" signature="objectClose()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:02:45 IST" name="objectClose" finished-at="2025-08-25T15:02:45 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- objectClose -->
+        <test-method is-config="true" signature="Dbclode()[pri:0, instance:TestNG_practise.base1test@7530ad9c]" started-at="2025-08-25T15:02:45 IST" name="Dbclode" finished-at="2025-08-25T15:02:45 IST" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Dbclode -->
+      </class> <!-- TestNG_practise.base1test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

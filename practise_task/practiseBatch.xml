@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="practise_task_using_genericutility.VT_006_test"/>
+      <class name="practise_task_using_genericutility.VT_010_test"/>
+      <class name="practise_task_using_genericutility.VT_008_test"/>
+      <class name="practise_task_using_genericutility.VT_004_test"/>
+      <class name="practise_task_using_genericutility.VT_001_test"/>
+      <class name="practise_task_using_genericutility.VT_009_test"/>
+      <class name="practise_task_using_genericutility.VT_005_test"/>
+      <class name="practise_task_using_genericutility.VT_002_test"/>
+      <class name="practise_task_using_genericutility.VT_003_test"/>
+      <class name="practise_task_using_genericutility.VT_007_test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
