@@ -40,7 +40,7 @@ public class contactbase extends BaseClass {
 	Assert.assertEquals(lastname.equals(Lname), true,"Lastname is not match");
 	Reporter.log("Lastname is match",true);
 
-	
+	System.Out.println();
 
 	}
 
